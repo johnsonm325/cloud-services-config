@@ -538,6 +538,19 @@
         }
       ]
     },
+    "learning-resources": {
+        "manifestLocation": "/apps/learning-resources/fed-mods.json",
+        "modules": [
+            {
+                "id": "learning-resources",
+                "module": "./RootApp",
+                "routes": [
+                    "/insights/learning-resources",
+                    "ansible/learning-resources"
+                ]
+            }
+        ]
+    },
     "trust": {
         "dynamic": false,
         "modules": [

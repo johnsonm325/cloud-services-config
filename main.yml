@@ -1003,6 +1003,18 @@ product:
         title: Cost Management
   source_repo: https://github.com/RedHatInsights/docs-frontend
 
+learning-resources:
+  title: Learning Resources
+  api:
+    versions:
+      -v1
+  deployment_repo: https://github.com/RedHatInsights/learning-resources-build
+  frontend:
+    module: learning-resources#./RootApp
+    paths:
+      - /insights/learning-resources
+  source_repo: https://github.com/RedHatInsights/learning-resources
+
 rbac:
   title: Role-based Access Control
   api:

@@ -249,9 +249,9 @@
         "expandable": true,
         "routes": [
           {
-            "title": "Documentation",
-            "isExternal": true,
-            "href": "https://access.redhat.com/documentation/en-us/red_hat_insights/"
+            "appId": "learning-resources",
+            "title": "Learning Resources",
+            "href": "/insights/learning-resources"
           },
           {
             "title": "Security Information",
